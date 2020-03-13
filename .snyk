@@ -64,6 +64,14 @@ patch:
         patched: '2020-03-13T16:47:10.027Z'
     - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > extend:
         patched: '2020-03-13T16:47:10.027Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auto-auth > google-auth-library > gcp-metadata > extend:
+        patched: '2020-03-13T16:49:06.358Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auth-library > gcp-metadata > extend:
+        patched: '2020-03-13T16:49:06.358Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gcp-metadata > extend:
+        patched: '2020-03-13T16:49:06.358Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gcp-metadata > extend:
+        patched: '2020-03-13T16:49:06.358Z'
   'npm:debug:20170905':
     - firebase-admin > @google-cloud/firestore > grpc > node-pre-gyp > tar-pack > debug:
         patched: '2020-03-13T16:47:10.027Z'
