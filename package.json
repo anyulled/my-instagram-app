@@ -11,7 +11,7 @@
     "react": "^16.2.0",
     "react-bootstrap": "^0.33.1",
     "react-dom": "^16.2.1",
-    "react-scripts": "^1.1.0",
+    "react-scripts": "^3.0.0",
     "simple-oauth2": "^1.5.0",
     "snyk": "^1.298.1"
   },
