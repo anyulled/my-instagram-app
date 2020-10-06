@@ -72,8 +72,28 @@ patch:
         patched: '2020-03-13T16:49:06.358Z'
     - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gcp-metadata > extend:
         patched: '2020-03-13T16:49:06.358Z'
-    - firebase > @firebase/firestore > grpc > node-pre-gyp > request > extend:
-        patched: '2020-10-06T15:26:26.722Z'
+    - firebase-admin > @google-cloud/storage > extend:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > extend:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > extend:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > extend:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > extend:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > extend:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > extend:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/firestore > @google-cloud/common > google-auth-library > gcp-metadata > extend:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > gcp-metadata > extend:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gcp-metadata > extend:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gcp-metadata > extend:
+        patched: '2020-10-06T15:31:10.393Z'
   'npm:debug:20170905':
     - firebase-admin > @google-cloud/firestore > grpc > node-pre-gyp > tar-pack > debug:
         patched: '2020-03-13T16:47:10.027Z'
@@ -290,6 +310,22 @@ patch:
         patched: '2020-03-13T16:47:10.027Z'
     - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > hawk > cryptiles > boom > hoek:
         patched: '2020-03-13T16:47:10.027Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > hawk > hoek:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > hawk > hoek:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > hawk > boom > hoek:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > hawk > boom > hoek:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > hawk > sntp > hoek:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > hawk > sntp > hoek:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-10-06T15:31:10.393Z'
   'npm:stringstream:20180511':
     - firebase-admin > @google-cloud/storage > request > stringstream:
         patched: '2020-03-13T16:47:10.027Z'
@@ -337,8 +373,7 @@ patch:
         patched: '2020-03-13T16:47:10.027Z'
     - firebase-admin > @google-cloud/firestore > @google-cloud/common-grpc > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > request > stringstream:
         patched: '2020-03-13T16:47:10.027Z'
-    - firebase > @firebase/firestore > grpc > node-pre-gyp > request > stringstream:
-        patched: '2020-10-06T15:26:26.722Z'
-  SNYK-JS-LODASH-567746:
-    - firebase > @firebase/firestore > grpc > lodash:
-        patched: '2020-10-06T15:26:26.722Z'
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > request > stringstream:
+        patched: '2020-10-06T15:31:10.393Z'
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > request > stringstream:
+        patched: '2020-10-06T15:31:10.393Z'
