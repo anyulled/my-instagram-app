@@ -7,10 +7,10 @@
     "cookie-parser": "^1.4.3",
     "express": "latest",
     "firebase": "^4.13.1",
-    "firebase-admin": "^9.2.0",
-    "react": "^16.2.0",
+    "firebase-admin": "^5.12.1",
+    "react": "^16.5.0",
     "react-bootstrap": "^0.33.1",
-    "react-dom": "^16.2.1",
+    "react-dom": "^16.5.0",
     "react-scripts": "^3.0.0",
     "simple-oauth2": "^1.5.0",
     "snyk": "^1.298.1"
