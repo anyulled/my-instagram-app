@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "cookie-parser": "^1.4.3",
+    "bootstrap": "3.4.1",
+    "cookie-parser": "1.4.5",
     "express": "latest",
-    "firebase": "^7.22.0",
+    "firebase": "7.22.1",
+    "react": "16.13.1",
+    "react-bootstrap": "0.33.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.3",
+    "simple-oauth2": "1.6.0",
+    "snyk": "1.410.2"
     "firebase-admin": "^9.2.0",
     "react": "^16.5.0",
     "react-bootstrap": "^0.33.1",
@@ -25,7 +31,7 @@
     "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
-    "axios": "^0.18.1"
+    "axios": "0.18.1"
   },
   "snyk": true
 }
